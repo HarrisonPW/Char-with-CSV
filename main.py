@@ -9,7 +9,7 @@ import subprocess
 warnings.filterwarnings("ignore")
 
 # Set OpenAI API key
-os.environ['OPENAI_KEY'] = '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'
+os.environ['OPENAI_KEY'] = 'sk-.....'
 open_ai_key = os.environ.get('OPENAI_KEY')
 openai.api_key = open_ai_key
 
