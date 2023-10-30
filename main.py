@@ -9,7 +9,7 @@ import subprocess
 warnings.filterwarnings("ignore")
 
 # Set OpenAI API key
-os.environ['OPENAI_KEY'] = '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'
+os.environ['OPENAI_KEY'] = 'sk-.....'
 open_ai_key = os.environ.get('OPENAI_KEY')
 openai.api_key = open_ai_key
 
@@ -70,13 +70,13 @@ def ChatWithPandas(message, tableName):
     return sql_query
 
 # Execute SQL queries
-result_df = ChatWithPandas('output the sum of the age in the dataset', 'PLAYERDATA')
+result_df = ChatWithPandas('Output the sum of the age in the dataset', 'PLAYERDATA')
 chat_query1 = f"""{result_df}"""
 cursor.query(chat_query1).df()
 print(result_df)
 print(cursor.query(chat_query1).df())
 
-result_df2 = ChatWithPandas('output the sum wage_eur in the dataset', 'PLAYERDATA')
+result_df2 = ChatWithPandas('Output the sum wage_eur in the dataset', 'PLAYERDATA')
 chat_query2 = f"""{result_df2}"""
 cursor.query(chat_query2).df()
 print(result_df2)
