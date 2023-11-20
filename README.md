@@ -26,7 +26,7 @@ python3 main.py
 2. It can automatically generate the distribution plot according to the dataset:
 <img width="1014" alt="Screenshot 2023-11-20 at 2 23 23 PM" src="https://github.com/HarrisonPW/Chat-with-CSV/assets/32474200/801ed51a-59ca-404a-9532-7136f8520728">
 
-3. It's support the complex SQL:
+3. It supports the complex SQL:
 <img width="1155" alt="Screenshot 2023-11-20 at 2 24 35 PM" src="https://github.com/HarrisonPW/Chat-with-CSV/assets/32474200/a56a878a-d0bd-4bbe-90af-ec7495363180">
 
 4. It has the feature of query time by using caching mechanism:
