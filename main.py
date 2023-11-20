@@ -10,7 +10,7 @@ import seaborn as sns
 warnings.filterwarnings("ignore")
 
 # Set OpenAI API key
-os.environ['OPENAI_KEY'] = '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'
+os.environ['OPENAI_KEY'] = 'sk-.....'
 open_ai_key = os.environ.get('OPENAI_KEY')
 openai.api_key = open_ai_key
 
