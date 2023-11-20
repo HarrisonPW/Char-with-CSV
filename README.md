@@ -19,8 +19,15 @@ pip install -r requirements.txt
 export OPENAI_API_KEY='yourkey'
 python3 main.py
 ```
-# Sample Output:
-Showing the data:
-<img width="957" alt="Screenshot 2023-10-30 at 6 21 49 PM" src="https://github.com/HarrisonPW/Chat-with-CSV/assets/32474200/c9aa859c-016e-4646-91a4-068a39f2faad">
-<img width="632" alt="Screenshot 2023-10-30 at 6 22 22 PM" src="https://github.com/HarrisonPW/Chat-with-CSV/assets/32474200/a776ece3-8adc-4dd9-901b-0fb402bc787b">
-<img width="302" alt="Screenshot 2023-10-30 at 6 22 36 PM" src="https://github.com/HarrisonPW/Chat-with-CSV/assets/32474200/69c516a1-055e-435d-b4c6-6e4068eaed7d">
+# Showing the features:
+1. It is able to execute the SQL in SQLite:
+<img width="648" alt="Screenshot 2023-11-20 at 2 22 43 PM" src="https://github.com/HarrisonPW/Chat-with-CSV/assets/32474200/4ea7ca5d-cca0-4bde-8f0e-967ff19b6fce">
+
+2. It can automatically generate the distribution plot according to the dataset:
+<img width="1014" alt="Screenshot 2023-11-20 at 2 23 23 PM" src="https://github.com/HarrisonPW/Chat-with-CSV/assets/32474200/801ed51a-59ca-404a-9532-7136f8520728">
+
+3. It's support the complext SQL:
+<img width="1155" alt="Screenshot 2023-11-20 at 2 24 35 PM" src="https://github.com/HarrisonPW/Chat-with-CSV/assets/32474200/a56a878a-d0bd-4bbe-90af-ec7495363180">
+
+4. It has the feature of query time by using caching mechanism:
+<img width="977" alt="Screenshot 2023-11-20 at 2 26 28 PM" src="https://github.com/HarrisonPW/Chat-with-CSV/assets/32474200/9904bc0f-07a8-44b0-9c9a-edcd14b3120a">
