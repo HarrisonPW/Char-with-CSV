@@ -14,7 +14,7 @@ cd Chat-with-CSV
 ```
 pip install -r requirements.txt
 ```
-. Enter your openai Key and Run the program
+3. Enter your openai Key and Run the program
 ```
 export OPENAI_API_KEY='yourkey'
 python3 main.py
